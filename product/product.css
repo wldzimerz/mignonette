@@ -1,0 +1,429 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: #f5f2f0;
+}
+div.mainwrapper {
+  padding: 0px 140px;
+  margin: 0px auto;
+  width: 1920px;
+}
+li {
+  list-style-type: none;
+}
+img.icon {
+  width: 22px;
+  height: 22px;
+  opacity: 0.7;
+}
+.header {
+  position: relative;
+  margin-bottom: 90px;
+}
+.header .menu {
+  display: flex;
+  margin-bottom: 95px;
+}
+.header .menu a.sandwich {
+  display: block;
+  margin: 85px 0px;
+}
+.header .menu a.sandwich img {
+  width: 30px;
+  height: 25px;
+  opacity: 0.7;
+}
+.header .menu div.logo {
+  font-family: "Cormorant", serif;
+  width: 100%;
+  text-align: center;
+  margin: 95px auto 0px;
+  position: absolute;
+  z-index: 0;
+}
+.header .menu div.logo a:link,
+.header .menu div.logo a:visited {
+  color: black;
+  text-decoration: none;
+  font-family: "Cormorant", serif;
+  font-size: 46px;
+  line-height: 56px;
+  font-weight: 500;
+}
+.header .menu .bar {
+  display: flex;
+  margin-top: 85px;
+  margin-left: auto;
+}
+.header .menu .bar li {
+  margin-left: 70px;
+}
+.header .pages {
+  display: flex;
+  width: 100%;
+}
+.header .pages a:link,
+.header .pages a:visited {
+  margin-right: 30px;
+  margin-bottom: 10px;
+  opacity: 0.6;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+.header .pages a:link:last-child,
+.header .pages a:visited:last-child {
+  opacity: 1;
+}
+.header .pages a:link:hover,
+.header .pages a:visited:hover {
+  text-decoration: underline;
+}
+hr {
+  height: 1px;
+  background: linear-gradient(89.98deg, #856159 -15.52%, rgba(133, 97, 89, 0) 128.59%);
+  border: 0;
+}
+.button {
+  color: black;
+  display: block;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  text-decoration: none;
+  background-color: #d3cfce;
+  border: 0.7px solid #856159;
+  box-sizing: border-box;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px 0px;
+  text-align: center;
+  width: 280px;
+  transition: 0.2s linear;
+}
+.details {
+  padding: 12px 66px;
+  background-color: #f5f2f0;
+  border: 0.7px solid #856159;
+  border-radius: 10px;
+  opacity: 0.7;
+  display: block;
+  text-decoration: none;
+  color: black;
+  width: 150px;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  transition: 0.2s linear;
+}
+.details:hover {
+  background-color: #d4d4d4;
+}
+.productcard {
+  display: flex;
+}
+.productcard .filters {
+  margin-top: 60px;
+  width: 165px;
+  margin-right: 160px;
+}
+.productcard .filters li {
+  margin-bottom: 40px;
+}
+.productcard .filters li a:link,
+.productcard .filters li a:visited {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+}
+.productcard .filters li a:link:hover,
+.productcard .filters li a:visited:hover {
+  text-decoration: underline;
+}
+.productcard .product .images {
+  width: 710px;
+}
+.productcard .product .images img {
+  width: 700px;
+  margin-bottom: 30px;
+}
+.productcard .product .images img:not(:first-child) {
+  width: 333px;
+}
+.productcard .product .images img:last-child {
+  margin-left: 30px;
+}
+.productcard .product div.description {
+  margin-top: -1250px;
+  margin-left: 860px;
+  margin-bottom: 495px;
+  width: 550px;
+}
+.productcard .product div.description p.name {
+  font-family: "Cormorant", serif;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
+.productcard .product div.description div.price {
+  display: flex;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 68px;
+  margin-bottom: 60px;
+}
+.productcard .product div.description div.price img {
+  width: 21px;
+  height: 21px;
+  margin: 22px 0px 22px 25px;
+}
+.productcard .product div.description p.description {
+  opacity: 0.7;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  margin-bottom: 45px;
+}
+.productcard .product div.description div.color {
+  font-family: "Cormorant", serif;
+  margin-bottom: 27px;
+  display: flex;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 68px;
+  color: #191311;
+}
+.productcard .product div.description div.color a {
+  margin-top: 4px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #191311;
+  margin-left: 25px;
+}
+.productcard .product div.description div.color a:hover {
+  color: #644e45;
+}
+.productcard .product div.description div.size {
+  font-family: "Cormorant", serif;
+  margin-bottom: 27px;
+  display: flex;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 68px;
+  color: #191311;
+}
+.productcard .product div.description div.size a {
+  margin-top: 4px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #191311;
+  margin-left: 25px;
+}
+.productcard .product div.description div.size a:hover {
+  color: #644e45;
+}
+.productcard .product div.description div.quantity {
+  font-family: "Cormorant", serif;
+  margin-bottom: 60px;
+  display: flex;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 68px;
+  color: #191311;
+}
+.productcard .product div.description div.quantity input[type="number"] {
+  background: #f5f2f0;
+  border: none;
+  font-size: 24px;
+  margin-left: 20px;
+  width: 50px;
+  height: 40px;
+  margin-top: 13px;
+  padding: 5px;
+}
+.productcard .product div.description div.quantity input[type="number"]:focus {
+  outline: none;
+}
+.productcard .product div.description .button {
+  background: #f5f2f0;
+  transition: 0.2s linear;
+}
+.productcard .product div.description .button:hover {
+  background: #e7e6e6;
+}
+.rewiew h3 {
+  font-family: "Cormorant", serif;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 56px;
+  margin-bottom: 45px;
+}
+.rewiew div.frame {
+  background: rgba(206, 196, 186, 0.5);
+  opacity: 0.6;
+  border-radius: 5px;
+  padding: 61px 34px 34px 99px;
+  margin-bottom: 73px;
+}
+.rewiew div.frame p {
+  font-size: 18px;
+  line-height: 45px;
+  margin-bottom: 12px;
+  margin-right: 287px;
+}
+.rewiew div.frame ul.stars {
+  margin-left: auto;
+  width: 280px;
+}
+.rewiew div.frame ul.stars img {
+  margin-left: 12px;
+}
+.rewiew .button {
+  margin-left: auto;
+  margin-bottom: 90px;
+  background: #f5f2f0;
+  transition: 0.2s linear;
+}
+.rewiew .button:hover {
+  background: #e7e6e6;
+}
+.accompanying {
+  margin-top: 90px;
+}
+.accompanying h3 {
+  font-family: "Cormorant", serif;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 56px;
+  margin-bottom: 90px;
+}
+.accompanying .itemsarea {
+  display: flex;
+  justify-content: space-between;
+}
+.accompanying .itemsarea .item div.name {
+  display: flex;
+  margin-top: 30px;
+  line-height: 39px;
+}
+.accompanying .itemsarea .item div.name a:link,
+.accompanying .itemsarea .item div.name a:visited {
+  text-decoration: none;
+  color: #191311;
+  font-size: 32px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.accompanying .itemsarea .item div.name a:hover {
+  text-decoration: underline;
+}
+.accompanying .itemsarea .item div.name img {
+  margin: 9px 0px 9px auto;
+  width: 21px;
+  height: 21px;
+}
+.accompanying .details {
+  margin: 60px auto 110px;
+}
+.footer {
+  background: #cec4ba;
+  width: 100%;
+}
+.footer .container {
+  width: 1920px;
+  display: flex;
+  margin: 0px auto;
+  padding: 84px 140px;
+}
+.footer .container p {
+  opacity: 0.6;
+}
+.footer .container p:last-of-type {
+  width: 475px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.footer .container div.about {
+  width: 480px;
+}
+.footer .container div.about p:last-of-type {
+  margin-bottom: 70px;
+}
+.footer .container .social a {
+  margin-right: 45px;
+}
+.footer .container .social a .icon {
+  width: 31px;
+  height: 31px;
+}
+.footer .container menu {
+  margin: 0px auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer .container menu a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.6;
+}
+.footer .container menu a:hover {
+  text-decoration: underline;
+}
+.footer .container menu ul {
+  display: block;
+  margin-top: 20px;
+  width: 250px;
+  padding: 0px;
+}
+.footer .container menu ul li {
+  padding: 3px 0px;
+}
+.footer .container div.subscribe {
+  margin-left: auto;
+}
+.footer .container div.subscribe p:last-of-type {
+  margin-top: 33px;
+  font-size: 16px;
+  margin-bottom: 23px;
+  line-height: 26px;
+  opacity: 0.6;
+}
+.footer .container div.subscribe input[type="email"] {
+  width: 250px;
+  background: #cec4ba;
+  border: none;
+  border-bottom: 0.7px solid #5c575186;
+  margin-bottom: 34px;
+  padding: 7px 1px;
+}
+.footer .container div.subscribe input[type="email"]::placeholder {
+  opacity: 0.45;
+  line-height: 23px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer .container div.subscribe input[type="email"]:focus {
+  outline: none;
+}
+.footer .container div.subscribe .button {
+  background: #b4a699;
+  font-size: 14px;
+  padding: 12px 40px;
+  width: 200px;
+  border: none;
+  box-shadow: none;
+}
+.footer .container div.subscribe .button:hover {
+  background: #ad9f94;
+}
