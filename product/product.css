@@ -10,7 +10,7 @@ body {
 div.mainwrapper {
   padding: 0px 140px;
   margin: 0px auto;
-  width: 1920px;
+  width: 1600px;
 }
 li {
   list-style-type: none;
@@ -163,7 +163,7 @@ hr {
 }
 .productcard .product div.description {
   margin-top: -1250px;
-  margin-left: 860px;
+  margin-left: 770px;
   margin-bottom: 495px;
   width: 550px;
 }
@@ -339,7 +339,7 @@ hr {
   width: 100%;
 }
 .footer .container {
-  width: 1920px;
+  width: 1600px;
   display: flex;
   margin: 0px auto;
   padding: 84px 140px;
@@ -387,7 +387,7 @@ hr {
   padding: 0px;
 }
 .footer .container menu ul li {
-  padding: 3px 0px;
+  padding: 5px 0px;
 }
 .footer .container div.subscribe {
   margin-left: auto;

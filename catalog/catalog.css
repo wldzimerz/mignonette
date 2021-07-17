@@ -10,7 +10,7 @@ body {
 div.mainwrapper {
   padding: 0px 140px;
   margin: 0px auto;
-  width: 1920px;
+  width: 1600px;
 }
 li {
   list-style-type: none;
@@ -168,7 +168,7 @@ img.icon {
   margin-left: 410px;
   margin-bottom: 180px;
   columns: 2 600px;
-  width: 1400px;
+  width: 1300px;
 }
 .items h2 {
   width: 415px;
@@ -225,7 +225,7 @@ img.icon {
   width: 100%;
 }
 .footer .container {
-  width: 1920px;
+  width: 1600px;
   display: flex;
   margin: 0px auto;
   padding: 84px 140px;
@@ -273,7 +273,7 @@ img.icon {
   padding: 0px;
 }
 .footer .container menu ul li {
-  padding: 3px 0px;
+  padding: 5px 0px;
 }
 .footer .container div.subscribe {
   margin-left: auto;

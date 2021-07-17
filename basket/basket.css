@@ -10,7 +10,7 @@ body {
 div.mainwrapper {
   padding: 0px 140px;
   margin: 0px auto;
-  width: 1920px;
+  width: 1600px;
 }
 li {
   list-style-type: none;
@@ -134,6 +134,7 @@ hr {
 }
 .chooseitems .item .description {
   margin-left: 100px;
+  width: 1080px;
 }
 .chooseitems .item .description p.name {
   font-family: "Cormorant", serif;
@@ -217,7 +218,7 @@ hr {
   margin: -220px 0px auto 1080px;
 }
 .chooseitems .item .description a .trash {
-  margin: 60px 0px 0px 1370px;
+  margin: 60px 0px 0px 1045px;
   height: 35px;
   width: 35px;
 }
@@ -289,7 +290,7 @@ hr {
   width: 100%;
 }
 .footer .container {
-  width: 1920px;
+  width: 1600px;
   display: flex;
   margin: 0px auto;
   padding: 84px 140px;
@@ -337,7 +338,7 @@ hr {
   padding: 0px;
 }
 .footer .container menu ul li {
-  padding: 3px 0px;
+  padding: 5px 0px;
 }
 .footer .container div.subscribe {
   margin-left: auto;
