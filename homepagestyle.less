@@ -10,7 +10,7 @@ body {
 }
 
 div.mainwrapper {
-  width: 1920px;
+  width: 1600px;
   padding: 0px 140px;
   margin: 0px auto;
 }
@@ -37,12 +37,12 @@ img.icon {
     height: 1200px;
     position: relative;
     margin: 0px auto;
-    width: 1920px;
+    width: 1600px;
     img.head {
       display: block;
       width: 1150px;
       height: 1036px;
-      margin: -60px 300px 0px 600px;
+      margin: -60px auto 0px 400px;
       z-index: 0;
       position: absolute;
     }
@@ -63,6 +63,7 @@ img.icon {
         display: flex;
         margin-top: 35px;
         margin-left: auto;
+        z-index: 1;
         li {
           margin: 0px 38px;
         }
@@ -147,10 +148,8 @@ hr {
   }
   .offercontainer {
     display: flex;
+    justify-content: space-between;
     .offer {
-      &:first-child {
-        margin-right: 140px;
-      }
       .goodsimage {
         width: 748px;
         height: 898px;
@@ -242,9 +241,13 @@ hr {
     z-index: 0;
     filter: blur(2px);
     width: 100%;
+    margin-left: -140px;
+    img {
+      width: 1880px;
+    }
   }
   div.container {
-    margin: 121px;
+    margin: 121px 0px;
     position: absolute;
     z-index: 1;
     h3 {
@@ -288,10 +291,8 @@ hr {
   }
   .wrapper {
     display: flex;
+    justify-content: space-between;
     .item {
-      &:first-child {
-        margin-right: 140px;
-      }
       .name {
         display: flex;
         div.container {
@@ -386,7 +387,7 @@ hr {
   img {
     width: 676px;
     height: 768px;
-    margin: -700px 10px 0px 900px;
+    margin: -690px 0px 0px 920px;
   }
 }
 
@@ -394,7 +395,7 @@ hr {
   background: #cec4ba;
   width: 100%;
   .container {
-    width: 1920px;
+    width: 1600px;
     display: flex;
     margin: 0px auto;
     padding: 84px 140px;
@@ -439,7 +440,7 @@ hr {
         width: 250px;
         padding: 0px;
         li {
-          padding: 3px 0px;
+          padding: 5px 0px;
         }
       }
     }

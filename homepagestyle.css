@@ -8,7 +8,7 @@ body {
   width: 100%;
 }
 div.mainwrapper {
-  width: 1920px;
+  width: 1600px;
   padding: 0px 140px;
   margin: 0px auto;
 }
@@ -29,13 +29,13 @@ img.icon {
   height: 1200px;
   position: relative;
   margin: 0px auto;
-  width: 1920px;
+  width: 1600px;
 }
 .headerbg .header img.head {
   display: block;
   width: 1150px;
   height: 1036px;
-  margin: -60px 300px 0px 600px;
+  margin: -60px auto 0px 400px;
   z-index: 0;
   position: absolute;
 }
@@ -57,6 +57,7 @@ img.icon {
   display: flex;
   margin-top: 35px;
   margin-left: auto;
+  z-index: 1;
 }
 .headerbg .header .menu .bar li {
   margin: 0px 38px;
@@ -131,9 +132,7 @@ hr {
 }
 .popular .offercontainer {
   display: flex;
-}
-.popular .offercontainer .offer:first-child {
-  margin-right: 140px;
+  justify-content: space-between;
 }
 .popular .offercontainer .offer .goodsimage {
   width: 748px;
@@ -220,9 +219,13 @@ hr {
   z-index: 0;
   filter: blur(2px);
   width: 100%;
+  margin-left: -140px;
+}
+.bannersale div.layer img {
+  width: 1880px;
 }
 .bannersale div.container {
-  margin: 121px;
+  margin: 121px 0px;
   position: absolute;
   z-index: 1;
 }
@@ -265,9 +268,7 @@ hr {
 }
 .goods .wrapper {
   display: flex;
-}
-.goods .wrapper .item:first-child {
-  margin-right: 140px;
+  justify-content: space-between;
 }
 .goods .wrapper .item .name {
   display: flex;
@@ -362,14 +363,14 @@ hr {
 .registry img {
   width: 676px;
   height: 768px;
-  margin: -700px 10px 0px 900px;
+  margin: -690px 0px 0px 920px;
 }
 .footer {
   background: #cec4ba;
   width: 100%;
 }
 .footer .container {
-  width: 1920px;
+  width: 1600px;
   display: flex;
   margin: 0px auto;
   padding: 84px 140px;
@@ -417,7 +418,7 @@ hr {
   padding: 0px;
 }
 .footer .container menu ul li {
-  padding: 3px 0px;
+  padding: 5px 0px;
 }
 .footer .container div.subscribe {
   margin-left: auto;
