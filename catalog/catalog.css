@@ -29,7 +29,7 @@ img.icon {
 }
 .header .menu a.sandwich {
   display: block;
-  margin: 85px 0px;
+  margin: 35px 0px;
 }
 .header .menu a.sandwich img {
   width: 30px;
@@ -39,7 +39,7 @@ img.icon {
 .header .menu div.logo {
   width: 100%;
   text-align: center;
-  margin: 95px auto 0px;
+  margin: 65px auto 0px;
   position: absolute;
   z-index: 0;
 }
@@ -54,7 +54,7 @@ img.icon {
 }
 .header .menu .bar {
   display: flex;
-  margin-top: 85px;
+  margin-top: 35px;
   margin-left: auto;
 }
 .header .menu .bar li {
@@ -312,4 +312,8 @@ img.icon {
 }
 .footer .container div.subscribe .button:hover {
   background: #ad9f94;
+}
+html {
+  visibility: visible;
+  opacity: 1;
 }

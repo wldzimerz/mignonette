@@ -35,7 +35,7 @@ img.icon {
   display: block;
   width: 1150px;
   height: 1036px;
-  margin: -60px auto 0px 400px;
+  margin: -60px auto 0px 490px;
   z-index: 0;
   position: absolute;
 }
@@ -60,12 +60,12 @@ img.icon {
   z-index: 1;
 }
 .headerbg .header .menu .bar li {
-  margin: 0px 38px;
+  margin-left: 70px;
 }
 .headerbg .header div.demo {
   position: absolute;
   z-index: 2;
-  margin: 320px auto;
+  margin: 320px auto auto 90px;
 }
 .headerbg .header div.demo h1 {
   font-family: "Cormorant", serif;
@@ -457,4 +457,8 @@ hr {
 }
 .footer .container div.subscribe .button:hover {
   background: #ad9f94;
+}
+html {
+  visibility: visible;
+  opacity: 1;
 }
